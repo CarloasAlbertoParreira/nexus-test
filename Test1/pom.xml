@@ -14,8 +14,7 @@
   
    <scm>
   	<developerConnection>scm:git:https://github.com/EE-Maps/nexus-test.git</developerConnection>
-    
-  </scm>
+   </scm>
   
   
     <build>
