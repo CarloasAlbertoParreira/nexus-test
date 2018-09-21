@@ -25,8 +25,7 @@
   
   <!--using git protocol  -->
   <scm>
-  	<connection>scm:git:git@github.com:EE-Maps/nexus-test.git</connection>
-    <tag>tutorial1-0.0.1</tag>
+  	<connection>scm:git:https://bitbucket.intdigital.ee.co.uk/users/serb.ocal/repos/maps_releases</connection>
   </scm>
  
  
