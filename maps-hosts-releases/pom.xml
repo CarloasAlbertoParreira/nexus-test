@@ -14,31 +14,37 @@
   <!-- version control system 
   release will be commited & pushed to the remote repo-->
  
-  <!--  
+ 
   <scm>
   	<connection>scm:git:https://github.com/EE-Maps/nexus-test.git</connection>
-  	<url>https://github.com/EE-Maps/nexus-test</url>
+  	<url>http://github.com/EE-Maps/nexus-test</url>
   	<developerConnection>scm:git:https://github.com/EE-Maps/nexus-test.git</developerConnection>
-    <tag>tutorial1-0.0.1</tag>
   </scm>
   
-  -->
   
+  <!--using git protocol  
   <scm>
   	<connection>scm:git:git@github.com:EE-Maps/nexus-test.git</connection>
   	<url>scm:git:git@github.com:EE-Maps/nexus-test.git</url>
   	<developerConnection>scm:git:git@github.com:EE-Maps/nexus-test.git</developerConnection>
  </scm>
+  -->
+  
   
   <build>
   	<plugins>
   		<plugin>
 	  		<groupId>org.apache.maven.plugins</groupId>
 	  		<artifactId>maven-release-plugin</artifactId>
-	  		<version>2.5.2</version>
+	  		<version>2.4.2</version>
+	  		<configuration>
+     			 <tagNameFormat>v@{project.version}</tagNameFormat>
+      			<autoVersionSubmodules>true</autoVersionSubmodules>
+      			
+   			</configuration>
 	  	</plugin>
   	</plugins>	
-   </build>
+  </build>
   
  
  
