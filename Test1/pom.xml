@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Maps-Release</groupId>
   <artifactId>Test1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   
   
   <distributionManagement>
@@ -14,7 +14,8 @@
   
    <scm>
   	<developerConnection>scm:git:https://github.com/EE-Maps/nexus-test.git</developerConnection>
-   </scm>
+     <tag>Test1-0.0.1</tag>
+  </scm>
   
   
     <build>
