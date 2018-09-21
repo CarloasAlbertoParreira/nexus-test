@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lets.develop.with</groupId>
   <artifactId>tutorial1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   
   <distributionManagement>
   	<repository>
@@ -26,6 +26,7 @@
   <!--using git protocol  -->
   <scm>
   	<connection>scm:git:git@github.com:EE-Maps/nexus-test.git</connection>
+    <tag>tutorial1-0.0.1</tag>
   </scm>
  
  
