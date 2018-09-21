@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lets.develop.with</groupId>
   <artifactId>tutorial1</artifactId>
-  <version>0.0.1-Snapshot</version>
+  <version>0.0.1</version>
   
   <distributionManagement>
   	<repository>
@@ -13,14 +13,22 @@
   
   <!-- version control system 
   release will be commited & pushed to the remote repo-->
+ 
+  <!--  
   <scm>
   	<connection>scm:git:https://github.com/EE-Maps/nexus-test.git</connection>
   	<url>https://github.com/EE-Maps/nexus-test</url>
   	<developerConnection>scm:git:https://github.com/EE-Maps/nexus-test.git</developerConnection>
-    <tag>v0.0.1</tag>
+    <tag>tutorial1-0.0.1</tag>
   </scm>
   
+  -->
   
+  <scm>
+  	<connection>scm:git:git@github.com:EE-Maps/nexus-test.git</connection>
+  	<url>scm:git:git@github.com:EE-Maps/nexus-test.git</url>
+  	<developerConnection>scm:git:git@github.com:EE-Maps/nexus-test.git</developerConnection>
+ </scm>
   
   <build>
   	<plugins>
