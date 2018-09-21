@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>lets.develop.with</groupId>
+  <artifactId>tutorial1</artifactId>
+  <version>1-0</version>
+  
+  <distributionManagement>
+  	<repository>
+  		<id>nexus</id>
+  		<url>http://localhost:8081/repository/EE-maps-releases</url>
+  	</repository>
+  </distributionManagement>
+  
+  <!-- version control system 
+  release will be commited & pushed to the remote repo-->
+  <scm>
+  	<connection>scm:git:https://github.com/EE-Maps/nexus-test.git</connection>
+  	<url>https://github.com/EE-Maps/nexus-test</url>
+  	<developerConnection>scm:git:https://github.com/EE-Maps/nexus-test.git</developerConnection>
+  </scm>
+  
+  
+  
+  <build>
+  	<plugins>
+  		<plugin>
+	  		<groupId>org.apache.maven.plugins</groupId>
+	  		<artifactId>maven-release-plugin</artifactId>
+	  		<version>2.5.3</version>
+	  		
+	  		<configuration>
+	  			<tagNameFormat>v@{project.version}</tagNameFormat>
+	  			<autoVersionSubmodules>true</autoVersionSubmodules>
+	  			<releaseProfiles>releases</releaseProfiles>
+	  		</configuration>
+	  		
+	  		
+  		</plugin>
+  	</plugins>
+   </build>
+  
+ 
+ 
+ 
+   
+   
+</project>
