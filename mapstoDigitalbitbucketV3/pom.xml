@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>V3DigitalBitbucket</groupId>
   <artifactId>mapstoDigitalbitbucketV3</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   
    
@@ -21,7 +21,6 @@
   	<connection>scm:git:https://github.com/CarloasAlbertoParreira/nexus-test.git</connection>
   	<url>http://github.com/CarloasAlbertoParreira/nexus-test</url>
   	<developerConnection>scm:git:https://github.com/CarloasAlbertoParreira/nexus-test.git</developerConnection>
-    <tag>mapstoDigitalbitbucketV3-0.0.1</tag>
   </scm>
   
   <build>
