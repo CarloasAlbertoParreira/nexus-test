@@ -2,17 +2,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>V3DigitalBitbucket</groupId>
   <artifactId>mapstoDigitalbitbucketV3</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   
-  <!--store artifact in nexus  -->
-  <distributionManagement>
+   
+  <!--Alternate Remote Server (MyEE Nexus) storing artifacts -->
+   <distributionManagement>
   	<repository>
-	  	<id>nexus</id>
-	  	<url>http://localhost:8081/repository/EE-maps-releases/</url>
+	  	<id>maps-test-release</id>
+	  	<url>https://jenkins-myee.intdigital.ee.co.uk/nexus/content/repositories/maps-test-release</url>
   	</repository>
   </distributionManagement>
-  
   
   
   
