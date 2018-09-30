@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   
   
-  <!--store artifact in MyEE nexus  -->
+  <!--store artifact in local nexus  -->
   <distributionManagement>
 	  <repository>
 	    <id>nexus</id>
