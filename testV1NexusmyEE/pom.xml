@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>V1NexusmyEE</groupId>
   <artifactId>testV1NexusmyEE</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   
   
@@ -14,12 +14,11 @@
 	  </repository>
   </distributionManagement>
   
-  <!-- code push to EE Digital -->
+  <!-- code push to github-->
   <scm>
   	<connection>scm:git:https://github.com/CarloasAlbertoParreira/nexus-test.git</connection>
   	<url>http://github.com/CarloasAlbertoParreira/nexus-test</url>
   	<developerConnection>scm:git:https://github.com/CarloasAlbertoParreira/nexus-test.git</developerConnection>
-    <tag>HEAD</tag>
   </scm>
   
   <build>
