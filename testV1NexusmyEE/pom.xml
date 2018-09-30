@@ -9,8 +9,8 @@
   <!--store artifact in MyEE nexus  -->
   <distributionManagement>
 	  <repository>
-	    <id>maps-test-release</id>
-	    <url>http://jenkins-myee.intdigital.ee.co.uk/nexus/content/repositories/maps-test-release</url>
+	    <id>nexus</id>
+	  	<url>http://localhost:8081/repository/EE-maps-releases/</url>
 	  </repository>
   </distributionManagement>
   
